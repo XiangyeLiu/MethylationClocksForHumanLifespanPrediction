@@ -4,7 +4,7 @@
 #target methylation sites in a .txt file
 #methylation values of target sites for each sample in a .csv file, with rows corresponding to individual sites and columns corresponding to samples
 #ages or other phenotypes of samples in a .csv file, with rows corresponding to individual samples and columns corresponding to ages or other phenotypes
-#The order of the target sites and samples should be identical between files
+#the order of the target sites and samples should be identical between files
 
 library(glmnet)
 
