@@ -1,5 +1,4 @@
 #file requirements
-
 #target methylation sites in a .txt file
 #training series in multiple .csv files, with rows corresponding to individual sites and columns corresponding to samples (annotated with ages)
 
@@ -47,3 +46,4 @@ for (file in filegroup) {
 }
 
 write.table(data4, "PC_clock_train_meth.csv", row.names = TRUE, sep = ",")
+
