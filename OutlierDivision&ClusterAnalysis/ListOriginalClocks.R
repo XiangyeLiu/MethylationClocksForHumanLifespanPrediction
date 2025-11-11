@@ -1,6 +1,6 @@
 #file requirements
 #target sites in a .txt file
-#all methylation values of samples in each series in a .csv file
+#sample series in multiple .csv files, with rows corresponding to individual sites and columns corresponding to samples
 
 options(scipen = 100)
 filename <- list.files(path = ".", "*.csv")
@@ -151,3 +151,4 @@ names(value) <- tablename
 wholelist[[2]] <- value
 
 save(wholelist, file = "whole_methylation_level_enhanced.RData")
+
