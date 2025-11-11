@@ -1,5 +1,5 @@
 #file requirements
-#Original clocks in a .csv file, with rows corresponding to individual sites and columns corresponding to the coefficients and which original clock sites are used in
+#original clocks in a .csv file, with rows corresponding to individual sites and columns corresponding to the coefficients and which original clock sites are used in
 #extremum of target sites among all samples in a .csv file, with rows corresponding to individual sites and columns corresponding to the maximum and minimum
 
 library(ggplot2)
@@ -45,4 +45,5 @@ name <- c("Hannum-71 Clock (2013)",
 limitation <- cbind(name, limitation)
 colnames(limitation) <- c("Name", "Max", "Min")
 limitationplot <- data.frame(Name = rep(name, 2), Extremum = c(limitation[, 2], limitation[, 3]))
+
 limitationplot[, 1] <- factor(limitationplot[, 1], levels = rev(name))
