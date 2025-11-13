@@ -41,4 +41,5 @@ datagearchaic <- data.frame(matrix(unlist(agearchaic, use.names = FALSE),
 colnames(datagearchaic) <- c("Neandertal", "Denisovan")
 
 write.table(datagearchaic, "age_archaic_human.csv",
+
   row.names = TRUE, sep = ",")
