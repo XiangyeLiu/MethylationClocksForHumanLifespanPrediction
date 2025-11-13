@@ -10,7 +10,7 @@ mldata <- fread("extremum_methylation_level.csv", header = TRUE,
   sep = ",", data.table = TRUE)
 setkey(mldata, "ID_REF")
 
-load("CalcPCBigSix.RData")
+load("CalcPCSix.RData")
 message("PCClocks Data successfully loaded")
 clockname <- c("PCHannum", "PCHorvath1", "PCHorvath2",
   "PCLin", "PCZhang", "PCPhenoAge")
@@ -177,4 +177,5 @@ for (i in seq_along(positiongroup)) {
   clustergroup[i, ] <- c(sum(cluster[, 2] == "Outlier_down") / nrow(cluster),
     sum(cluster[, 2] == "Outlier_up") / nrow(cluster))
   message(paste(i, "Finished"))
+
 }
