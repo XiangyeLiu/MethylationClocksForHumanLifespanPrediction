@@ -5,7 +5,7 @@
 library(tidyverse)
 library(stringr)
 
-load(file = "CalcPCBigSix.RData")
+load(file = "CalcPCSix.RData")
 message("PCClocks Data successfully loaded")
 
 data3 <- read.table("extremum_split_max.csv", header = TRUE,
@@ -70,3 +70,4 @@ rm(CalcPCHannum, CalcPCHorvath1, CalcPCHorvath2,
 
 write.table(agemaxgroup, "age_split_max.csv", row.names = TRUE, sep = ",")
 write.table(agemingroup, "age_split_min.csv", row.names = TRUE, sep = ",")
+
