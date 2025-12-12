@@ -7,6 +7,7 @@ Codes for data analyses in the study **_Epigenetic estimate of the lifespan limi
 - Python3, any version that support Pandas is fine (3.12.1 in the study).
 - Any operating systems in which R and Python3 can run normally.
 ## General Instructions
-- Codes can be downloaded or copied, then run directly, with proper forms of data provided as input. Otherwise, some code modifying may be required. 
+- Codes can be downloaded or copied in no time, then run directly, with proper forms of data provided as input. Otherwise, some code modifying may be required.
+- For a small seet of data, a couple of seconds may be need to run codes. Note that the run time is highly correlated with data size, thus the expected run time is not guaranteed.
 - Data series used in the study can be obtained from **GEO** database at https://www.ncbi.nlm.nih.gov/geo/ or **ArrayExpress** database at https://www.ebi.ac.uk/biostudies/arrayexpress. Please check the supplementary information for details. Ohter data series availible on the two databases or from other sources can also be used to test codes.
 - For reproduction, please use the same data series and process them properly, then run codes step by step in the correct order. Maximum lifespan estimation results of each methylation clock used are expected to be the final output.
