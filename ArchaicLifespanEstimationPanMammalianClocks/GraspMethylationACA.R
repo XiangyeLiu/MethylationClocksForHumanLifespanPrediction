@@ -1,6 +1,7 @@
 #file requirements
 #methylation map of the Altai Neandertal in a .txt file, obtained from "Reconstructing the DNA methylation maps of the Neandertal and the Denisovan" (https://doi.org/10.1126/science.1250368)
 #target sites from 450K Beadchip to compute unmatched sites and chromosome position information in two .csv files, including one file for the Altai Neandertal and the other for the Denisovan
+#based on Array Converter Algorithm
 
 library(tidyverse)
 
