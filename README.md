@@ -1,7 +1,8 @@
 # Methylation Clocks for Human Lifespan Prediction
-Codes for data analyses in the study **_Epigenetic estimate of the lifespan limit in modern and archaic humans_** are available here.
+Codes for data analyses in the study **_Epigenetic ageing reveals extended lifespan potential in humans but not archaic hominins_** are available here.
 - For .R or .py files, please refer to code to find out what form of data is needed.
 - Codes to train and use new PC-guided clocks are revised from codes provided by **_A computational solution for bolstering reliability of epigenetic clocks, implications for clinical trials and longitudinal tracking_** at https://doi.org/10.1038/s43587-022-00248-2, which are available at https://github.com/MorganLevineLab/PC-Clocks.
+- Codes to use pan-mammalian clocks and specifically designed Array Converter Algorithm are based on codes provided by **_Universal DNA methylation age across mammalian tissues_** at https://doi.org/10.1038/s43587-023-00462-6, which are available at https://github.com/shorvath/MammalianMethylationConsortium/tree/v2.0.0.
 ## Software and Operating System Requirements
 - R or R Studio for R codes, any version that support R packages used is fine (4.5.0 in the study).
 - Python3, any version that support Pandas is fine (3.12.1 in the study).
