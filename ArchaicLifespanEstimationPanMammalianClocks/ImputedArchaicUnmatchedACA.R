@@ -2,6 +2,7 @@
 #information of target sites from 450K Beadchip to compute unmatched sites in two .RDS file, including individual sites and coefficients, excerpted from "Universal DNA methylation age across mammalian tissues" (https://doi.org/10.1038/s43587-023-00462-6)
 #quality control using relation between each unmatched site and its target sites from 450K Beadchip in a .RDS file, obtained from "Universal DNA methylation age across mammalian tissues" (https://doi.org/10.1038/s43587-023-00462-6)
 #information of target sites from 450K Beadchip in six .csv files, with rows corresponding to individual sites and columns corresponding to chromosome position, specific values, and whether directly matched with the methylation map or not, each clock including one file for the Altai Neandertal and the other for the Denisovan
+#based on Array Converter Algorithm
 
 fitkeepn <- readRDS("fit_EPICtoMM_v2_450k_Altai_Neandertal.RDS")
 
