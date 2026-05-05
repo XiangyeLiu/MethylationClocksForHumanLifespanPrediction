@@ -1,5 +1,4 @@
 #file requirements
-
 #target methylation sites in a .txt file
 #sample series in multiple .csv files, with rows corresponding to individual sites and columns corresponding to samples (annotated with ages)
 
